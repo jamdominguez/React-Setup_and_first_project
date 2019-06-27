@@ -5,9 +5,12 @@ The application example is a personal app like first React project. Will be a Sh
 <div align="center">
 
 ![React-Setup_and_first_project](courseIcon.png)<br>
-Reference: [How to set up React, webpack, and Babel 7 from scratch (2019)](https://www.valentinog.com/blog/babel/) for Valentino Gagliardi (set up)
 
 </div>
+
+References:<br>
+- Set up: [How to set up React, webpack, and Babel 7 from scratch (2019)](https://www.valentinog.com/blog/babel/) for Valentino Gagliardi
+
 
 ## Table of contents
 - [React-Setup_and_first_project](#React-Setupandfirstproject)
