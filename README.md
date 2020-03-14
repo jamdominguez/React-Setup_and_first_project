@@ -153,6 +153,8 @@ Webpack needs two aditional components for procession HTML. To add this dependen
 npm i html-webpack-plugin html-loader --save-dev
 ```
 ```jsx
+const HtmlWebPackPlugin = require("html-webpack-plugin")
+
 module.exports = {
     module: {
       rules: [
@@ -175,10 +177,10 @@ module.exports = {
     },
     plugins: [
         new HtmlWebPackPlugin({
-            template: "./src/index.html",
-            filename: "./index.html"
+          template: "./src/index.html",
+          filename: "./index.html"
         })
-    ]
+      ]
   };
 ```
 
@@ -201,4 +203,4 @@ Inside **Form.js** add the following code at the end fo the file:
 const wrapper = document.getElementById("container");
 wrapper ? ReactDom.render(<Form />, wrapper) : false;
 ```
-If execute **npm run buildProd**you should see the resulting HTML into dist folder. The bundle is automatically injected into the page.
+If execute **npm run buildProd** you should see the resulting HTML into dist folder. The bundle is automatically injected into the page.
