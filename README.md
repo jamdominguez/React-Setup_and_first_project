@@ -2,7 +2,7 @@
 It is based in a tutorial blog for set up.<br>
 The application example is a personal app like first React project. Will be a Shopping assistant that let us create a shopping list from and buy the products.
 
-**Status: In develop**
+**Status: Completed**
 
 <div align="center">
 
