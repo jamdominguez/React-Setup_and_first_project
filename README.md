@@ -26,6 +26,7 @@ References:<br>
   - [1.4 Setting up React](#14-setting-up-react)
 - [2. Writing React components](#2-writing-react-components)
 - [3. The HTML Webpack plugin](#3-the-html-webpack-plugin)
+- [4. Webpack dev server](#4-webpack-dev-server)
 
 
 # 1. How to set up React, Webpack and Babel
@@ -204,3 +205,19 @@ const wrapper = document.getElementById("container");
 wrapper ? ReactDom.render(<Form />, wrapper) : false;
 ```
 If execute **npm run buildProd** you should see the resulting HTML into dist folder. The bundle is automatically injected into the page.
+
+# 4. Webpack dev server
+Whe develop a application is necessary test it in a local environment. Webpack can be set up with a development server.
+
+It is necessary install a npm dependency:
+```console
+npm i webpack-dev-server --save-dev
+```
+Now is possible add a new script into package.json to run the application in a local development server.
+```jsx
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "buildDev": "webpack --mode development",
+    "buildProd": "webpack --mode production"
+  },
+```

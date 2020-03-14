@@ -4,6 +4,7 @@
   "description": "It is based in a tutorial blog for set up.<br>\r The application example is a personal app like first React project. Will be a Shopping assistant that let us create a shopping list from and buy the products.",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --open --mode development",
     "buildDev": "webpack --mode development",
     "buildProd": "webpack --mode production"
   },
@@ -28,7 +29,8 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "webpack": "^4.42.0",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {}
 }
