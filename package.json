@@ -1,0 +1,34 @@
+{
+  "name": "React-Setup_and_first_project",
+  "version": "1.0.0",
+  "description": "It is based in a tutorial blog for set up.<br>\r The application example is a personal app like first React project. Will be a Shopping assistant that let us create a shopping list from and buy the products.",
+  "main": "index.js",
+  "scripts": {
+    "buildDev": "webpack --mode development",
+    "buildProd": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamdominguez/React-Setup_and_first_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamdominguez/React-Setup_and_first_project/issues"
+  },
+  "homepage": "https://github.com/jamdominguez/React-Setup_and_first_project#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {}
+}
