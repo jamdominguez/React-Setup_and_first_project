@@ -7,11 +7,17 @@ The application example is a personal app like first React project. Will be a Sh
 <div align="center">
 
 ![React-Setup_and_first_project](courseIcon.png)<br>
+[How to set up React, webpack, and Babel 7 from scratch (2019)](https://www.valentinog.com/blog/babel/) for Valentino Gagliardi
 
 </div>
 
-References:<br>
-- Set up: [How to set up React, webpack, and Babel 7 from scratch (2019)](https://www.valentinog.com/blog/babel/) for Valentino Gagliardi
+### Personal Set Up
+- CUP: i5-7600K@3.80GHz 
+- RAM: 16GB RAM
+- Environment: Windows 10
+- Browser: Google Chrome (80)
+- IDE: Visual Studio Code (1.43)
+- IDE Extensions: Markdown all in one
 
 
 ## Table of contents
